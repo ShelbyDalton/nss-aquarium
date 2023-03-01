@@ -1,0 +1,155 @@
+
+.pageHeader {
+    display: flex;
+    margin: 0 auto;
+    width: 1100px;
+    font-size: 2.2rem;
+    background-color: rgb(93, 93, 252);
+    font-style: oblique;
+    justify-content: center;
+    border: 3px solid rgb(12, 40, 116);
+    padding: .5em;
+}
+
+.collection {
+    margin: 0 auto;
+    display: flex;
+    width: 995px;
+    font-size: 1.6rem;
+    justify-content: center;
+    border: 3px solid rgb(5, 107, 18);
+}
+
+.FishList {
+    margin: 0 0 0 auto;
+    display: flex;
+    margin-bottom: 7px;
+    width: 1000px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fish__species {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.fishText {
+    padding: 5px 0;
+}
+
+.fish__name {
+    font-style: oblique;
+    font-size: 1.1em;
+}
+
+.fishCard {
+    margin: 0 auto;
+    text-align: center;
+    width: 18.8%;
+    height: 100%;
+    background-color: rgb(176, 253, 189);
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    border: 2px solid rgb(96, 197, 87);
+    padding: 0.25em; 
+}
+
+img {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#FishList {
+    padding: 0.25em;
+    margin: 0.25em;
+}
+
+.fishAndAside {
+    display: flex;
+}
+
+.aside {
+    display: flex;
+}
+
+.tipsHeader {
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 0 auto;
+    width: 200px;
+    font-size: 1.35rem;
+    border: 2px solid rgb(11, 7, 253);
+    background-color: rgb(161, 202, 255);
+    padding: 0.25em;
+}
+
+.tipsTricks {
+    margin: 0 auto 0 0;
+    width: 213px;
+    background-color: lightblue;
+    border: 2px solid rgb(11, 7, 253);
+    text-align: right;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.tips {
+    
+    display: flex;
+    flex-basis: 16%; 
+    justify-content: right;
+    padding: 0.1em;
+    margin: 0.1em;
+}
+
+.harvestRegions {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 1195px;
+    font-size: 1.5rem;
+    flex-basis: 30%;
+    border: 2px solid rgb(155, 39, 250);
+    background-color: rgb(213, 161, 255);
+    padding: 0.25em;
+}
+
+.regions {
+    /* flex-direction: column;
+    align-content: center; */
+    margin: 0 auto;
+    width: 1195px;
+    border: 2px solid rgb(155, 39, 250);
+    background-color: rgb(213, 161, 255);
+    padding: 0.25em;
+}
+
+.region {
+    text-align: center;
+}
+
+.martinsQuotes {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 1195px;
+    font-size: 1.5rem;
+    flex-basis: 30%;
+    border: 2px solid rgb(0, 37, 138);
+    background-color: rgb(107, 83, 243);
+    padding: 0.25em;
+}
+
+.quotes {
+    width: 1195px;
+    margin: 0 auto;
+    border: 2px solid rgb(5, 55, 163);
+    background-color: rgb(117, 117, 248);
+    padding: 10px;
+    font-size: 1.25rem;
+}
+
